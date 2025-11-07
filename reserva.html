@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Reserva de Viagem</title>
+   <link href="./css/bootstrap.min.css" rel="stylesheet">
+   <link rel="icon" type="image/x-icon" href="logo(2).png">
+   <link rel="stylesheet" href="css/style.css">
+   <link href="styles.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+
+
+   <div class="section">
+      <header>
+
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav">
+            <div class="container">
+               <a class="nav-link active" href="index.html">
+                  <img class="imgc" src="logo(2).png" width="100">
+               </a>
+               <a class="navbar-brand fw-bold">PEPB Airplan</a>
+
+
+
+               <button title="botão" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#menu">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div id="menu" class="collapse navbar-collapse">
+                  <ul class="navbar-nav ms-auto">
+                     <li class="nav-item"><a class="nav-link active" href="index.html" type="submit">Inicio</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicosDropdown" role="button"
+                           data-bs-toggle="dropdown">Serviços</a>
+                        <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="index.html#passaporte"
+                                 id="passaporte">Passaporte</a></li>
+                           <li><a class="dropdown-item" href="#formReserva" id="reserva">Reservas</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item"><a class="nav-link" href="index.html#planos">Planos</a></li>
+                     <li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a></li>
+                     <li class="nav-item"><a class="nav-link" href="index.html#contatos">Contato</a></li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="temaDropdown" role="button"
+                           data-bs-toggle="dropdown">Tema</a>
+                        <ul class="dropdown-menu">
+                           <li>
+                              <button id="modoEscuro" class="darkmode dropdown-item">modo Escuro</button>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <section>
+         <Div id="carouselFinancas" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               <Div class="carousel-item align-items-center justify-content-center active">
+                  <img src="https://picsum.photos/1200/500?grayscale&random=1" class="d-block w-100"
+                     alt="Finanças Pessoais">
+                  <div class="carousel-caption d-md-block d-nome w-50 m-auto rounded-3 text-dark bg-light">
+                     <h5>Um pouco Da nossa Historia</h5>
+
+                     <p>PEPB Air: Da Visão de um Engenheiro à Gigante Global da Aviação em Duas Décadas, Superando
+                        Crises com Inovação e Determinação!</p>
+
+                     <a href="historia.html" type="submit" class="btn btn-outline-primary">Conheça esta Historia</a>
+                  </div>
+               </div>
+               <div class="carousel-item align-items-center justify-content-center">
+                  <img src="https://picsum.photos/1200/500?grayscale&random=2" class="d-block w-100" alt="Viagem">
+                  <div class="carousel-caption d-md-block d-nome w-50 m-auto rounded-3 text-dark bg-light">
+                     <h5>Um pouco Da nossa Historia</h5>
+
+                     <p>PEPB Air: Da Visão de um Engenheiro à Gigante Global da Aviação em Duas Décadas, Superando
+                        Crises com Inovação e Determinação!</p>
+
+                     <a href="historia.html" type="submit" class="btn btn-outline-secondary">Conheça esta Historia</a>
+                  </div>
+               </div>
+               <Div class="carousel-item align-items-center justify-content-center active">
+                  <img src="https://picsum.photos/1200/500?random=1" class="d-block w-100" alt="Finanças Pessoais">
+                  <div class="carousel-caption d-md-block d-nome w-50 m-auto rounded-3 text-dark bg-light">
+                     <h5>Um pouco Da nossa Historia</h5>
+
+                     <p>PEPB Air: Da Visão de um Engenheiro à Gigante Global da Aviação em Duas Décadas, Superando
+                        Crises com Inovação e Determinação!</p>
+
+                     <a href="historia.html" type="submit" class="btn btn-secondary">Conheça esta Historia</a>
+                  </div>
+               </div>
+               <div class="carousel-item align-items-center justify-content-center">
+                  <img src="https://picsum.photos/1200/500?random=2" class="d-block w-100" alt="Viagem">
+                  <div class="carousel-caption d-md-block d-nome w-50 m-auto rounded-3 text-dark bg-light">
+                     <h5>Um pouco Da nossa Historia</h5>
+
+                     <p>PEPB Air: Da Visão de um Engenheiro à Gigante Global da Aviação em Duas Décadas, Superando
+                        Crises com Inovação e Determinação!</p>
+
+                     <a href="historia.html" type="submit" class="btn btn-outline-primary">Conheça esta Historia</a>
+                  </div>
+               </div>
+
+            </Div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFinancas" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselFinancas" data-bs-slide="next">
+               <span class="carousel-control-next-icon"></span>
+            </button>
+         </Div>
+      </section>
+   </div>
+   <main class="py-5 container">
+      <div class="contaner text-center">
+         <h1 class="mb-4"><strong></strong> <i class="s">S</i>ua <i class="s">R</i>eserva</h1>
+         <p class="col-md-8 mx-auto"><strong>Preencha os dados abaixo para calcular o valor da sua passagem.</strong>
+         </p>
+         <form id="formReserva" class="mb-3">
+            <div class="mb-3">
+               <label class="form-label"><strong>Nome Completo</strong></label>
+               <input class="form-control" type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            </div>
+            <div class="mb-3">
+               <label class="form-label"><strong>Idade</strong></label>
+               <input class="form-control" type="number" id="idade" name="idade" placeholder="Sua idade" min="0"
+                  required>
+            </div>
+            <div class="mb-3">
+               <label for="destino" class="form-label"><strong>Escolha do Destino</strong></label>
+               <br>
+               <select id="destino" name="destino" required class="form-control">
+                  <option value="">-- Selecione um Destino --</option>
+                  <option value="926">Rio de Janeiro (926 km)</option>
+                  <option value="1446">Salvador (1.446 km)</option>
+                  <option value="569">Florianópolis (569 km)</option>
+                  <option value="700">aguas lindas (700 km)</option>
+               </select>
+            </div>
+            <div class="mb-3">
+               <label class="form-label"><strong>Quantidade de Passageiros</strong></label>
+               <input class="form-control" id="passageiros" type="number" name="passageiros"
+                  placeholder="Mínimo de 1 passageiro" required>
+            </div>
+            <div class="mb-3">
+               <label class="form-label"><strong>Tipo de Assento</strong></label>
+               <select id="assento" title="assento" name="assento" required class="form-control">
+                  <option><strong>Escolha o Tipo de Assento </option>
+                  <option value="padrao">Padrão (+R$ 0,00 por pessoa)</option>
+                  <option value="vip">VIP (+R$ 150,00 por pessoa)</option>
+                  <option value="executiva">Executiva (+R$ 300,00 por pessoa)</option>
+               </select>
+            </div>
+            <lebel class="form-label"><strong>data de embarque</strong></lebel>
+            <input class="form-control" name="date" type="date">
+
+            <br><br>
+            <button id="reserva" type="submit" class="btn btn-primary">Confirmar Reserva e Calcular</button>
+         </form>
+
+         <div id="resultado">
+            <h3 class="my-5"><i class="s">R</i>esultado</h3>
+            <div id="textoResultado" class="col-md-4 mb-3 mt-3"></div>
+         </div>
+      </div>
+   </main>
+   <script>
+      const precoPorKm = 0.80; // R$ por km
+      document.getElementById('formReserva').addEventListener('submit', function (e) {
+         e.preventDefault();
+
+         const nome = document.getElementById('nome').value.trim();
+         const idade = Number(document.getElementById('idade').value);
+         const distancia = Number(document.getElementById('destino').value);
+         const passageiros = Number(document.getElementById('passageiros').value) || 1;
+         const assentoSelect = document.getElementById('assento');
+         const assento = assentoSelect.value;
+         const assentoTexto = assentoSelect.options[assentoSelect.selectedIndex].text;//arrumado por IA
+
+         if (!nome || isNaN(idade) || idade < 0 || !distancia || passageiros < 1 || !assento) {
+            document.getElementById('textoResultado').textContent = 'Por favor, preencha todos os campos corretamente.';
+            return;
+         }
+
+         // Calcula tarifa base por pessoa
+         const tarifaBase = distancia * precoPorKm;
+
+         // Adicional por tipo de assento
+         let adicional = 0;
+         if (assento === 'vip') adicional = 150;
+         if (assento === 'executiva') adicional = 300;
+         if (assento === 'pobre premium plus') adicional = -50; // desconto de R$50 por pessoa
+
+         const valorPorPessoa = tarifaBase + adicional;
+         const total = valorPorPessoa * passageiros;
+
+         // Formata em Real (pt-BR)
+         const formato = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });// formata para o padrao brasileiro
+
+         document.getElementById('textoResultado').innerHTML =
+            `<div class="card h-100 text-center">
+
+                     <div class="card-body">
+                         <img src="futurist.jpg" width="300">
+                        <h1 class="card-title">Nome: ${nome}<br></h1>` +
+            ` <p class="card-text">Idade: ${idade} anos<br></p>` +
+            ` <p class="card-text">Tipo de assento: ${assentoTexto}<br>` +
+            ` <p class="card-text">Valor por pessoa: ${formato.format(valorPorPessoa)}<br></p>` +
+            ` <p class="card-text">Passageiros: ${passageiros}<br></p>` +
+            `<strong><h2 class="text-primary">Total: ${formato.format(total)}</h2></strong>   </div>
+                  </div>
+               </div></div>`;
+      });
+   </script>
+   <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-1">&copy; PEPB Airplan-Todos os direitos reservados-2025</p>
+      <div>
+         <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+         <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+         <a href="#" class="text-white "><i class="bi bi-whatsapp"></i></a>
+      </div>
+   </footer>
+
+   <script src="./js/bootstrap.bundle.min.js"></script>
+   <script src="js.js"></script>
+</body>
+
+</html>

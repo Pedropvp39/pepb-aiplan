@@ -1,0 +1,23 @@
+ body{
+         display: ruby-text-container;
+      }
+      h1 {
+         text-align: center;
+         font-family: Brush Script MT;
+         font-size: 5;
+      }
+
+      p {
+         text-align: center;
+         font-family: Brush Script MT;
+          font-size: 5;
+      }
+
+      h4 {
+         text-align: center;
+         font-family: Brush Script MT;
+          font-size: 5;
+      }
+      .col-md-4.mb-3{
+    margin: 0 auto;
+}
