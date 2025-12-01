@@ -1,2 +1,3 @@
 # pepb-aiplan
-site de reservas de viagem
+
+https://pedropvp39.github.io/pepb-aiplan/
