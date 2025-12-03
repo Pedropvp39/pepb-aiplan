@@ -6,6 +6,7 @@ Projeto criado com o intuito de criar uma empresa fake sobre reservas de viagem 
 * **JavaScript**
 * **Git e GitHub**
 * **VS Code**
+  
 # como Instalar
 ## ⚙️ Pré-requisitos
 * Click em "Code" e então em Download.Zip *
